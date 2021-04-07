@@ -1,0 +1,62 @@
+.Home{
+    .menu-list{
+        max-width:200px;
+        width: 180px;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        .ant-menu-root{
+            height: 100%;
+        }
+    }
+    .main-app{
+        margin-left: 180px;
+        transition: all .3s;
+        &.menu-unfold{
+            margin-left: 80px;
+            
+        }
+        .main-head{
+            height: 50px;
+            line-height: 50px;
+            padding-left: 8px;
+            padding-right: 20px;
+            border-bottom: 1px solid #eee;
+            .breadcrumb{
+                display: inline-block;
+                margin-left: 20px;
+            }
+            .user-info{
+                float: right;
+                text-align: center;
+                cursor: pointer;
+                &::before{
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+                li:not(:first-child){
+                    display: none;
+                    &:hover{
+                        background-color: #eee;
+                        color:#999;
+                        font-weight: 700;
+                    }
+                }
+                li{
+                    padding: 0 26px;
+                    .anticon-down{
+                        margin: 0 4px;
+                    }
+                }
+                &:hover{
+                    li{
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+}
