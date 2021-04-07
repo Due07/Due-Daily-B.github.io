@@ -45,8 +45,8 @@ export default {
     };
     return {
       loginForm: {
-        password: '',
-        email: '',
+        password: 'qq123123',
+        email: '1443658477@qq.com',
       },
       rules: {
         email: [{ validator: checkEmail, trigger: 'change' }],
