@@ -1,24 +1,7 @@
-# daily-b
+# daily-b (每日优鲜（B2B）PC端)
 
-## Project setup
+## 静态部署地址
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+https://due07.github.io/Due-Daily-B.github.io/
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
